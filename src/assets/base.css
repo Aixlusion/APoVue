@@ -1,0 +1,185 @@
+:root {
+  --bg-image: url('./bg.jpg');
+  --background: #303446;
+  --overlay: #292c3c;
+  --text-color: #c6d0f5;
+  --accent-color: #f2cdcd;
+  --secondary-color: #a6adc8;
+}
+::selection {
+  background: var(--accent-color);
+  color: var(--background);
+}
+body {
+  background: var(--bg-image) no-repeat center center fixed;
+  background-size: cover;
+  font-family: Epilogue, sans-serif;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* Align profile page content to the left */
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.profile-header {
+  background-color: var(--overlay);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 4px 12px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  text-align: left; /* Align text to the left */
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent-color);
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 10px 0;
+  color: var(--accent-color);
+  text-align: left;
+}
+
+.user-title {
+  color: var(--secondary-color);
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.programming-icons {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  text-align: right;
+  justify-content: flex-start;
+}
+
+.programming-icons p {
+  margin-top: 0; /* Remove the default margin */
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: right;
+  margin-left: auto;
+  top: 0;
+  right: 0;
+}
+
+.programming-icons .icons {
+  display: flex;
+  gap: 5px;
+  margin-left: auto;
+}
+
+.programming-icons {
+  font-size: 1.5em;
+  color: var(--secondary-color);
+}
+
+/* Separate Box for About Me */
+.bio {
+  background-color: var(--overlay);
+  color: var(--text-color);
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 4px 12px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  text-align: left; /* Align text to the left */
+}
+
+.bio h2 {
+  color: var(--accent-color);
+  text-align: left;
+}
+
+/* Social Links Styling with Icons, aligned to the left */
+.social-links ul {
+  color: var(--accent-color);
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 5px;
+}
+
+.social-links li {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.social-links a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-size: 1.5em;
+  background-color: var(--overlay);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.social-links a:hover {
+  color: var(--text-color);
+  background-color: var(--background);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.media-section {
+  margin-top: 20px;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.media-section video,
+.media-section img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Responsive Styling */
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .user-title {
+    font-size: 1em;
+  }
+
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+  }
+}
