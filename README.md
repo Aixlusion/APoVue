@@ -1,29 +1,16 @@
-# untitled2
+# APoVue - Aixlusion's Portfolio on Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+As the description said, this repository's main purpose is to be used as my playground. You can fork this as you wish but make sure ***not*** to delete the LICENSE file, sell the code, and claim ownership.
 
-## Recommended IDE Setup
+# How to run and build
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
+Running the code locally:
 ```sh
 npm run dev
 ```
-
-### Compile and Minify for Production
-
+Building the code for deployment:
 ```sh
 npm run build
 ```
+
+**Aixlusion / MMXXIV / GPL-3.0** 
