@@ -55,13 +55,13 @@ export default {
         name: "Aixlusion",
         title: "Also khown as FZVN",
         bio: "I do coding when inspired, currently progressing in C++/Java/VueJS/HTML/CSS",
-        image: "./pfp.jpg", // Placeholder image
+        image: "./src/pfp.jpg", // Placeholder image
         socialLinks: [
           { platform: "Discord", url: "https://discord.com/users/422016649793765377", icon: "fa-brands fa-discord" },
           { platform: "GitHub", url: "https://github.com/Aixlusion", icon: "fab fa-github" },
           { platform: "Twitter", url: "https://twitter.com/Aixlusion", icon: "fab fa-x-twitter" },
         ],
-        media: "./gif1.gif", // Example video link
+        media: "./src/gif1.gif", // Example video link
         mediaType: "gif", // Set to "video" or "gif"
       },
     };
