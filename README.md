@@ -4,6 +4,10 @@ As the description said, this repository's main purpose is to be used as my play
 
 # How to run and build
 
+Running the code locally
+```sh
+npm run dev
+```
 Running the command below in the to build:
 ```sh
 npm run build
